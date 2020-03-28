@@ -1,2 +1,2 @@
 # custom_zone
-sauvegarde de toute les parties customiser du dom
+sauvegarde de toute les parties customisees du dom
