@@ -1,0 +1,21 @@
+body
+{
+    background-color: black;
+}
+li
+{
+    color: white;
+    font-size: 60px;
+    list-style: none;
+}
+
+li:not(:last-child)
+{
+    margin-bottom: 15px;
+}
+
+li::before
+{
+    content: '\2665';
+    color: green;
+}
