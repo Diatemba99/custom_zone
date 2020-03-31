@@ -1,0 +1,38 @@
+body
+{
+    background-color: salmon;
+    align-items: center;
+    justify-content: center;
+    margin:35%;
+}
+.love
+{
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    transform: rotate(45deg);
+}
+
+.love::before
+{
+    position: absolute;
+    content: '';
+    background-color: black;
+    height: 60%;
+    width: 100%;
+    top: -59%;
+    border-radius: 75px 75px 0 0;
+}
+
+.love::after
+{
+    position: absolute;
+    content: '';
+    background-color: black;
+    height: 60%;
+    width: 100%;
+    transform: rotate(-90deg);
+    top: 20%;
+    right: 79%;
+    border-radius: 75px 75px 0 0;
+}
